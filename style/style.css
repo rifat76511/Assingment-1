@@ -171,3 +171,52 @@
     margin-top: 16px;
 
 }
+/* brain section */
+.second-brain{
+
+    max-width: 1360px;
+    display: flex;
+    text-align: left;
+    gap: 60px;
+    margin: 120px auto;
+    align-items: center;
+}
+.second-brain .brain-info h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.second-brain .brain-info h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+
+}
+.second-brain .brain-info .design{
+    margin-bottom: 16px;
+}
+.second-brain .brain-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+}
+.second-brain .brain-info .para-gap{
+    margin-bottom: 40px;
+}
+.second-brain .brain-info ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+
+}
+.second-brain .brain-info ul li img{
+    margin-right: 6px;
+
+}
