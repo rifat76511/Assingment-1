@@ -98,28 +98,76 @@
 
     margin-top: 32px;
 }
-/* card section */
-.card-section{
+/* motivation section */
+.motivation{
     max-width: 1360px;
-    width: 85%;
+    height: 152px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    
 
 }
-.card-section .card-container{
+
+
+.motivation h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    
+    
+
+}
+.motivation p{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    font-weight: 400;
+}
+/* card section */
+
+.card-container{
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    
 }
-.card-section .card-container .card-box{
+.card-container .card-box{
 
     padding: 70px 24px;
-    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px #0000002a;
+    margin-top: 44px;
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
 }
-.card-section .card-container .card-box img{
+.card-container .card-box img{
     background: rgba(249, 85, 85, 1);
     border-radius: 50%;
-    
-    width: 32px;
-    height: 32px;
     background-size: 60px;
+    padding: 14px;
+}
+.card-container .card-box h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+
+}
+.card-container .card-box p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400px;
+    color: #627382;
+    margin-top: 16px;
+
 }
