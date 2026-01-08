@@ -7,11 +7,16 @@
 .btn{
     color: #FFFFFF;
     padding: 12.5px 16px;
-    background-color: #30B868;
+    background:rgba(70, 145, 101, 1);
     border-radius: 4px;
     border: none;
     font-size: 16px;
     font-weight: 600;
+    transition: transform 0.2s ease-in;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: #30B868;
 }
 /* navigation bar */
 .navication-container{
@@ -93,6 +98,12 @@
     font-weight: 600;
     background: rgba(0, 0, 0, 0.08);
     margin-left: 10px;
+    transition: transform 0.2s ease-in;
+}
+#hero-banner #white-button:hover{
+transform: scale(1.05);
+background-color: #30B868;
+border: none;
 }
 .btn-all{
 
@@ -149,6 +160,10 @@
     border-radius: 8px;
     width: 322px;
     height: 300px;
+    transition: transform 0.3s ease-in;
+}
+.card-container .card-box:hover{
+    transform: scale(1.05);
 }
 .card-container .card-box img{
     background: rgba(249, 85, 85, 1);
@@ -282,6 +297,8 @@ footer .footer-container .footer-social h5{
 footer hr{
 margin: 80px auto 30px;
 max-width: 1600px;
+opacity: 0.2;
+
 }
 footer small{
     color: #FAFAFA;
@@ -289,3 +306,17 @@ footer small{
     font-weight: 400;
     line-height: 24px;
 }
+.link:hover{
+    transform: scale(1.55);
+    color: #30B868;
+}
+.link{
+    transition: transform 0.1s ease-in;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.image{
+    transition: transform 0.2s ease-in-out;
+}
+.
