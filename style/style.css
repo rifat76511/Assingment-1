@@ -13,6 +13,7 @@
     font-size: 16px;
     font-weight: 600;
     transition: transform 0.2s ease-in;
+    cursor: pointer;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -99,6 +100,7 @@
     background: rgba(0, 0, 0, 0.08);
     margin-left: 10px;
     transition: transform 0.2s ease-in;
+    cursor: pointer;
 }
 #hero-banner #white-button:hover{
 transform: scale(1.05);
@@ -319,4 +321,3 @@ footer small{
 .image{
     transition: transform 0.2s ease-in-out;
 }
-.
