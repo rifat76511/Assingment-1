@@ -14,6 +14,7 @@
     font-weight: 600;
     transition: transform 0.2s ease-in;
     cursor: pointer;
+    height: 52px;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -62,29 +63,27 @@
     background-size: 1920px;
 
 }
-#hero-banner .bage{
-    gap: 6px;
-    padding: 8px 12px;
-    border-radius: 1000px;
-    background-color: #FFFFFF;
-    color: #30B868;
+#hero-banner .bage button{
     display: flex;
+    margin: 0 auto;
+    padding: 12px 8px;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 1000px;
     max-width: 229px;
-    margin: auto;
-    margin-bottom: 16px;
+    color: #30B868;
     font-size: 16px;
     font-weight: 500;
-    
-
+    cursor: pointer;
 
 }
-#hero-banner .bage .dot{
-    width: 16px;
-  height: 16px;
-  background: #5bb07a;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(91, 176, 122, 0.25)
+#hero-banner .bage button img{
+ height: 16px;
+ width: 16px;
+ margin: 2px;
+ 
 }
+
 #hero-banner h2{
     font-size: 72px;
     line-height: 84px;
@@ -106,7 +105,7 @@
 }
 #hero-banner #white-button{
     border-radius: 4px;
-    padding: 12px 16px;
+    padding: 12px 16px 10px 16px;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     font-size: 16px;
@@ -115,7 +114,22 @@
     margin-left: 10px;
     transition: transform 0.2s ease-in;
     cursor: pointer;
+    height: 52px;
+    justify-content: center;
+    display: inline-flex;
 }
+#hero-banner #white-button img{
+    height: 16px;
+    width: 18px;
+    margin-right: 6px;
+    margin-top: 4px;
+    
+    
+}
+#hero-banner #white-button span{
+    margin-top: 2px;
+}
+
 #hero-banner #white-button:hover{
 transform: scale(1.05);
 background-color: #30B868;
